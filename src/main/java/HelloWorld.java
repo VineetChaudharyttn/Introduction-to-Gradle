@@ -1,0 +1,9 @@
+import org.apache.commons.lang3.*;
+class HelloWorld{
+    public static void main(String[] args) {
+        System.out.println("HelloWorld");
+        System.out.println(StringUtils.rotate("HelloWorld",5));
+
+        new Second().show();
+    }
+}
